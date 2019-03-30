@@ -111,7 +111,7 @@ public class apbio extends AppCompatActivity {
         question4.setChoiceA("aggressive behavior");
         question4.setChoiceB("releaser pheromones");
         question4.setChoiceC("search image");
-        question4.setChoiceB("territoriality");
+        question4.setChoiceD("territoriality");
         question4.setCorrectAnswer("search image");
         questionList.add(question4);
         //Fifth Question
