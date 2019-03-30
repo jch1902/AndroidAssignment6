@@ -78,15 +78,51 @@ public class apbio extends AppCompatActivity {
         // Create some questions to ask the questions.
 
         this.questionList = new ArrayList<QuestionClass>();  // Initialize our question array.
-
+        //First Question
         QuestionClass question1 = new QuestionClass();
-        question1.setQuestion("In 'The Prince', what did Machiavelli believe?");
-        question1.setChoiceA("It is better to be feared than loved as a ruler");
-        question1.setChoiceB("Women are incapable of ruling");
-        question1.setChoiceC("It is important to take everyone's needs into consideration");
-        question1.setChoiceD("A prince should not keep prisoners and should execute them");
-        question1.setCorrectAnswer("It is better to be feared than loved as a ruler");
+        question1.setQuestion("What is a good example of a negative feedback loop?");
+        question1.setChoiceA("Regulation of blood glucose levels");
+        question1.setChoiceB("Regulation of body temperature");
+        question1.setChoiceC("Ripening apples");
+        question1.setChoiceD("Child birth");
+        question1.setCorrectAnswer("Regulation of body temperature");
         questionList.add(question1);
+        //Second Question
+        QuestionClass question2 = new QuestionClass();
+        question2.setQuestion("What are homeotic genes?");
+        question2.setChoiceA("Genes that control the development of sex cells");
+        question2.setChoiceB("Genes that code for the secretion of enzymes that attach methyl groups to the histone proteins that package DNA into compact coils");
+        question2.setChoiceC("Genes that specifiy the developmental patterns of groups of cells and drive the formation of basic body structures");
+        question2.setChoiceD("Genes that stimulate memory B-Cells in the immune system");
+        question2.setCorrectAnswer("Genes that specifiy the developmental patterns of groups of cells and drive the formation of basic body structures");
+        questionList.add(question2);
+        //Third Question
+        QuestionClass question3 = new QuestionClass();
+        question3.setQuestion("The axes of an embryo is influenced by the distribution of");
+        question3.setChoiceA("microRNAs");
+        question3.setChoiceB("the gray crescant");
+        question3.setChoiceC("GnRH");
+        question3.setChoiceD("morphogens");
+        question3.setCorrectAnswer("morphogens");
+        questionList.add(question3);
+        //Fourth Question
+        QuestionClass question4 = new QuestionClass();
+        question4.setQuestion("All of the following may be associated with mating behavior EXCEPT:");
+        question4.setChoiceA("aggressive behavior");
+        question4.setChoiceB("releaser pheromones");
+        question4.setChoiceC("search image");
+        question4.setChoiceB("territoriality");
+        question4.setCorrectAnswer("search image");
+        questionList.add(question4);
+        //Fifth Question
+        QuestionClass question5 = new QuestionClass();
+        question5.setQuestion("Gas diffusion in human lungs occurs across membranes of");
+        question5.setChoiceA("alveoli");
+        question5.setChoiceB("bronchi");
+        question5.setChoiceC("the diaphragm");
+        question5.setChoiceD("the larynx");
+        question5.setCorrectAnswer("alveoli");
+        questionList.add(question5);
 
         this.currentQuestion = question1;
         // Set the current, score, and total question size.
